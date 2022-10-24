@@ -1,0 +1,10 @@
+<html>
+    <body>
+        <h1>3D printer surveillance</h1>
+        <form method="post" action="/">
+            <input type="submit" value="ON" name="turnOn" style="width: 450px; height: 250px; font-size: 40px;"/>
+            <input type="submit" value="OFF" name="turnOff" style="width: 450px; height: 250px; font-size: 40px;"/>
+        </form>
+        <img src="{{ url_for('stream') }}">
+    </body>
+</html>
